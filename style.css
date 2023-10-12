@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 1440px;
+    height: 1024px;
+    background: #151718;
+    margin: 0 auto;
+    display: flex;
+
+}
+.first-container {
+ width: 720px;
+height: 1024px;
+background-image: url(./Rectangle\ 10.svg);
+}
+.second-container {
+    width: 720px;
+    height: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.create-account {
+    background-color:  #2D2F30;
+    width: 450px;
+    height: 818px;
+    border-radius: 10px;
+    padding: 50px;
+    
+    
+}
+.logos {
+    width: 120px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+h5 {
+    width: 189px;
+height: 30px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FBFAFA;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-p {
+    width: 230px;
+height: 17px;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+text-align: left;
+color: #F6F6F6;
+margin-top: 15px;
+}
+hr {
+    margin-top: 18px;
+    width: 370px;
+}
+#my-form {
+    margin-top: 30px;  
+  
+}
+.forms {
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+input {
+    width: 367px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: #414344;
+    border: none;
+    padding: 10px;
+    
+    
+    }
+label {
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #B0B0B0;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color: #2D76E2;
+}
+.p-footer {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FCFCFC;
+}
+.button-reg {
+    margin-top: 45px;
+}
+button {
+    width: 367px;
+height: 60px;
+top: 698px;
+left: 42px;
+border-radius: 4px;
+background-color: #2D76E2;
+color: white;
+border: none;
+
+}
